@@ -1,0 +1,80 @@
+[
+  {
+    "arquivo": "gow.jpg",
+    "jogo": "God of War",
+    "pagina": "https://store.steampowered.com/app/1593500/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/library_600x900.jpg"
+  },
+  {
+    "arquivo": "elden-ring.jpg",
+    "jogo": "Elden Ring",
+    "pagina": "https://store.steampowered.com/app/1245620/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg"
+  },
+  {
+    "arquivo": "cyberpunk.jpg",
+    "jogo": "Cyberpunk 2077",
+    "pagina": "https://store.steampowered.com/app/1091500/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_600x900.jpg"
+  },
+  {
+    "arquivo": "rdr2.jpg",
+    "jogo": "Red Dead Redemption 2",
+    "pagina": "https://store.steampowered.com/app/1174180/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900.jpg"
+  },
+  {
+    "arquivo": "witcher3.jpg",
+    "jogo": "The Witcher 3: Wild Hunt",
+    "pagina": "https://store.steampowered.com/app/292030/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900.jpg"
+  },
+  {
+    "arquivo": "stardew.jpg",
+    "jogo": "Stardew Valley",
+    "pagina": "https://store.steampowered.com/app/413150/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/413150/library_600x900.jpg"
+  },
+  {
+    "arquivo": "hollow-knight.jpg",
+    "jogo": "Hollow Knight",
+    "pagina": "https://store.steampowered.com/app/367520/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/367520/library_600x900.jpg"
+  },
+  {
+    "arquivo": "hades.jpg",
+    "jogo": "Hades",
+    "pagina": "https://store.steampowered.com/app/1145360/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_600x900.jpg"
+  },
+  {
+    "arquivo": "baldurs-gate3.jpg",
+    "jogo": "Baldur's Gate 3",
+    "pagina": "https://store.steampowered.com/app/1086940/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/library_600x900.jpg"
+  },
+  {
+    "arquivo": "sekiro.jpg",
+    "jogo": "Sekiro: Shadows Die Twice",
+    "pagina": "https://store.steampowered.com/app/814380/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/814380/library_600x900.jpg"
+  },
+  {
+    "arquivo": "zelda.jpg",
+    "jogo": "The Legend of Zelda: Breath of the Wild",
+    "pagina": "https://en.wikipedia.org/wiki/File:The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+  },
+  {
+    "arquivo": "minecraft.jpg",
+    "jogo": "Minecraft",
+    "pagina": "https://www.xbox.com/en-US/games/store/minecraft-java-bedrock-edition-for-pc/9NXP44L49SHJ",
+    "imagem": "https://store-images.s-microsoft.com/image/apps.808.14492077886571533.be42f4bd-887b-4430-8ed0-622341b4d2b0.c8274c53-105e-478b-9f4b-41b8088210a3"
+  },
+  {
+    "arquivo": "elden-ring-hero.jpg",
+    "jogo": "Elden Ring",
+    "pagina": "https://store.steampowered.com/app/1245620/",
+    "imagem": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg"
+  }
+]

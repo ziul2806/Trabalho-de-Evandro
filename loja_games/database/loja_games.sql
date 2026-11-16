@@ -1,0 +1,34 @@
+-- Capítulo 1: banco e dados de teste do roteiro.
+CREATE DATABASE loja_games CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE loja_games;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(150) UNIQUE NOT NULL,
+    senha VARCHAR(255) NOT NULL,
+    tipo ENUM('admin', 'user') DEFAULT 'user',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE games (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(100) NOT NULL,
+    descricao TEXT,
+    preco DECIMAL(10,2) NOT NULL,
+    estoque INT DEFAULT 0,
+    categoria VARCHAR(50),
+    imagem VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+INSERT INTO usuarios (nome, email, senha, tipo) VALUES
+('evandro', 'evandro@gmail.com', SHA2('admin123', 256), 'admin'),
+('pedro', 'pedro@gmail.com', SHA2('user123', 256), 'user');
+
+INSERT INTO games (titulo, descricao, preco, estoque, categoria, imagem) VALUES
+('The Legend of Zelda: Breath of the Wild', 'Um jogo de aventura...', 299.99, 10, 'Aventura', 'zelda.jpg'),
+('God of War', 'Jogo de ação com Kratos em uma jornada épica.', 249.99, 15, 'Ação', 'gow.jpg'),
+('Minecraft', 'Jogo de construção e sobrevivência em um mundo aberto.', 129.99, 20, 'Sandbox', 'minecraft.jpg');
